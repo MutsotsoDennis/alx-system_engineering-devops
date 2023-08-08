@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Everyone is a proponent of strong encryption." | ./101-rot13
+tr 'A-Ma-mN-Zn-z' 'N-Zn-zA-Ma-m'
