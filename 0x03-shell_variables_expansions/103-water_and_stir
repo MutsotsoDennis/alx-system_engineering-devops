@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%o\n" $(( $((5#$(echo $WATER | tr water 01234))) + $((5#$(echo $STIR | tr stir. 01234)))  )) | tr 0123567 bestchol
+echo "$((8#$(tr waterstir. 01234567 <<< "$WATER") + 8#$(tr waterstir. 01234567 <<< "$STIR")))g" | tr 0123456789abcdefhij bestchol.
